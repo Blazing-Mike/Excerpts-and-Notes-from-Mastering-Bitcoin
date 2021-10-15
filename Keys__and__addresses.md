@@ -1,9 +1,8 @@
 ## Chapter 4 : Key and addresses
 private key is simply a number, picked at random. Ownership and control over the private key is the root of user control over all funds associated with the corresponding
-bitcoin address. The private key is used to create signatures that are required to spend bitcoin by proving ownership of funds used in a transaction. 
+Bitcoin address. The private key is used to create signatures that are required to spend bitcoin by proving ownership of funds used in a transaction. 
 
-Generating a private key from a random number
-
+### Generating a private key from a random number
 The first and most important step in generating keys is to find a secure source of entropy, or randomness. Creating a bitcoin key is essentially the same as “Pick a number between 1 and 2^256.” 
 
 Public Keys : The public key is calculated from the private key using elliptic curve multiplication,
